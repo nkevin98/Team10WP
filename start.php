@@ -4,9 +4,12 @@
 	<title>Start</title>
 </head>
 <body>
-	<form action="hangman.php" method="post">
+	<form action="difficulty.php" method="post">
 		<select name="section">
 			<option value="easy.txt">Easy</option>
+			<option value="medium.txt">Medium</option>
+			<option value="hard.txt">Hard</option>
+			<option value="extreme.txt">Extreme</option>
 		</select>
 		<input type="submit" value="submit">
 	</form>
@@ -17,9 +20,6 @@
 	$_SESSION["attempts"] = 6;
 	$_SESSION["letters"] = '';
 	$_SESSION["score"] = 0;
-	$word_list = file("easy.txt");
-	$_SESSION["chosen_word"] = $word_list[array_rand($word_list)];
 	?>
-
 </body>
 </html>
