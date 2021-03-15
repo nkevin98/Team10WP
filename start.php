@@ -15,6 +15,7 @@
 	</form>
 	<?php
 	//sets the session variables and chooses a word
+	session_save_path("./");
 	session_start();
 	$_SESSION["status"] = '';
 	$_SESSION["attempts"] = 6;

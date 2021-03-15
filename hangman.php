@@ -6,6 +6,7 @@
 <body>
 	<?php
 	include 'draw.php';
+	session_save_path("./");
 	session_start();
 	//trim to remove any special chars
 	$attribute = explode(":", $_SESSION["chosen_word"]);

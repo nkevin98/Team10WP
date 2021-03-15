@@ -8,6 +8,7 @@
 	<h1>Congratulations!</h1>
 	<p>You were able to guess the correct word.</p>
 	<?php 
+	session_save_path("./");
 	session_start();
 	echo "The word was ".$_SESSION["correct"];
 	?>
