@@ -2,7 +2,7 @@
   session_save_path("./");
   session_start(); 
   if (!isset($_SESSION['logins'])) {
-  	$_SESSION['logins'] = array('tester1' => '123456','Admin' => 'password1','ABC' => 'password2');
+  	$_SESSION['logins'] = array('test' => '123','admin' => 'admin','user' => 'user');
   }
 ?>
 <!DOCTYPE html>
