@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>Start</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<h1>Choose your difficulty level</h1>
+	<br>
 	<form action="difficulty.php" method="post">
 		<select name="section">
 			<option value="easy.txt">Easy</option>

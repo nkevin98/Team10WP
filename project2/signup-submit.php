@@ -1,12 +1,22 @@
-<?php
+<?php 
+session_save_path("./");
+session_start();
         $file = 'accounts.html';
         $current = file_get_contents($file);
-        if(preg_match("/" . $_POST['Username'] . "/", $current) == 0){
-            $current = $current . $_POST['Username'] . ", " . $_POST['Password'] . "\n";
-            file_put_contents($file,$current);
-            header("location:login.php");
-        } else{
-            echo "This usernme has already been taken <br>
-                  <a href='createaccount.php'> Try again. </a>";
-        }
+            if (array_key_exists($_POST['Username'], $_SESSION['logins'])) {
+                $_SESSION['error'] = "<span style='color:red'>This username has already been taken</span>";
+                header("location:signup.php");
+                exit();
+            }
+            else if (in_array($_POST['Password'], $_SESSION['logins'])) {
+                $_SESSION['error'] = "<span style='color:red'>This password has already been taken</span>";
+                header("location:signup.php");
+                exit();
+            }
+            else {
+                $_SESSION['logins'][$_POST['Username']] = $_POST['Password'];
+                $_SESSION['msg'] = "Account succesfully created";
+                header("location:login.php");
+                exit();
+            }
     ?>

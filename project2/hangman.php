@@ -1,54 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Hangman</title>
-	<style>
-		body {
-			background-color: antiquewhite;
-		}
-
-		.letter {
-			color: #2CA4B0;
-			font-family: 'Oleo Script', cursive;
-			font-size: 24px;
-			font-weight: normal;
-			line-height: 32px;
-			margin: 0 0 18px;
-			text-shadow: 1px 0 0 #fff;
-		}
-
-		.word {
-			color: #111;
-			font-family: 'Open Sans Condensed', sans-serif;
-			font-size: 48px;
-			font-weight: 700;
-			line-height: 48px;
-			margin: 0 0 24px;
-			padding: 0 30px;
-			text-align: center;
-			text-transform: uppercase;
-		}
-
-		.attempt {
-			color: #d04764;
-			font-family: 'Lobster', cursive;
-			font-size: 36px;
-			font-weight: normal;
-			line-height: 48px;
-			margin: 0 0 18px;
-			text-shadow: 1px 0 0 #fff;
-		}
-
-		.word_status {
-			color: #7c795d;
-			font-family: 'Trocchi', serif;
-			font-size: 45px;
-			font-weight: normal;
-			line-height: 48px;
-			margin: 0;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -117,7 +71,7 @@
 	echo "<span class='word'>" . "<br>Hint: " . $word_length . " letters, " . $attribute[1] . "</span>";
 	?>
 	<form action="hangman.php" method="post">
-		<input type="text" pattern="[a-z]" name="guess" title="single alpha characters only" maxlength="1">
+		<input type="text" pattern="[a-z]" name="guess" title="please input 1 lowercase letter" maxlength="1">
 		<input type="submit" value="Submit">
 	</form>
 	<?php
