@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Winner!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
+	<a href="logout.php"><button id="logout">Logout</button></a>
 	<h1>Congratulations!</h1>
 	<p id="firstp">You were able to guess the correct word.</p>
 	<?php

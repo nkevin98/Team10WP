@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Game Over</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<a href="logout.php"><button id="logout">Logout</button></a>
 	<p>Game Over!</p>
 	<?php
 	include 'draw.php';

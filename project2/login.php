@@ -13,10 +13,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="Frame0">
-    <h1>Login</h1>
-
-  </div>
+  <h1>Login</h1>
   <br>
   <form action="login-submit.php" method="post" name="Login_Form">
     <table width="400" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">

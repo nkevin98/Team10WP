@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-	<head>
-		<title>leaderboard</title>
-		<link href="style.css" type="text/css" rel="stylesheet" />
-	</head>
-	<body>
+<head>
+	<title>leaderboard</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <a href="logout.php"><button id="logout">Logout</button></a>
     <h1>Leaderboard</h1>
     <div id="container" style="width:5%">
         <ol>
@@ -28,5 +29,5 @@
     </ol>
 	</div>
     <a href="start.php" class="button">Restart</a>
-	</body>
+</body>
 </html>

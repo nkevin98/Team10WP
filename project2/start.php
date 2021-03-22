@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<a href="logout.php"><button id="logout">Logout</button></a>
 	<h1>Choose your difficulty level</h1>
 	<br>
 	<form action="difficulty.php" method="post">

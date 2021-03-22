@@ -14,7 +14,6 @@ div.choice {
 	text-align: center;
 	width: 40%;
 	border: 1px solid black;
-  
 }
 .letter {
 	color: #2CA4B0;
@@ -25,7 +24,6 @@ div.choice {
 	margin: 0 0 18px;
 	text-shadow: 1px 0 0 #fff;
 }
-
 .word {
 	color: #111;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -37,7 +35,6 @@ div.choice {
 	text-align: center;
 	text-transform: uppercase;
 }
-
 .attempt {
 	color: #d04764;
 	font-family: 'Lobster', cursive;
@@ -47,7 +44,6 @@ div.choice {
 	margin: 0 0 18px;
 	text-shadow: 1px 0 0 #fff;
 }
-
 .word_status {
 	color: #7c795d;
 	font-family: 'Trocchi', serif;
@@ -56,7 +52,6 @@ div.choice {
 	line-height: 48px;
 	margin: 0;
 }
-
 h1 {
 	color: #7c795d;
 	font-family: 'Trocchi', serif;
@@ -65,14 +60,12 @@ h1 {
 	line-height: 48px;
 	margin: 0;
 }
-
 #firstp {
 	font-size: 26px;
 	font-weight: 300;
 	color: rgb(77, 204, 18);
 	margin: 0 0 24px;
 }
-
 h2 {
 	color: #d04764;
 	font-family: 'Lobster', cursive;
@@ -82,7 +75,6 @@ h2 {
 	margin: 0 0 18px;
 	text-shadow: 1px 0 0 #fff;
 }
-
 p {
 	color: #2CA4B0;
 	font-family: 'Oleo Script', cursive;
@@ -92,7 +84,6 @@ p {
 	margin: 0 0 18px;
 	text-shadow: 1px 0 0 #fff;
 }
-
 .word {
 	color: #111;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -104,7 +95,6 @@ p {
 	text-align: center;
 	text-transform: uppercase;
 }
-
 .button {
 	display: inline-block;
 	padding: 15px 25px;
@@ -119,17 +109,14 @@ p {
 	border-radius: 15px;
 	box-shadow: 0 10px #999;
 }
-
 .button:hover {
-	background-color: coral
+	background-color: coral;
 }
-
 .button:active {
 	background-color: coral;
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
-
 .curr_score {
 	color: #424242;
 	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
@@ -140,4 +127,17 @@ p {
 	line-height: 145%;
 	font-size: 14pt;
 	font-variant: small-caps;
+}
+#logout {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: white;
+	background-color: CORAL;
 }

@@ -6,6 +6,7 @@
 </head>
 
 <body>
+	<a href="logout.php"><button id="logout">Logout</button></a>
 	<?php
 	include 'draw.php';
 	session_save_path("./");
