@@ -11,6 +11,6 @@
 	include 'draw.php';
 	print_hang6();
 	?>
-	<p> <a href="start.php">Try again?</a></p>
+	<p> <a href="start.php">Try again?</a> or go to <a href="leaderboard.php">Leader Boards</a></p>
 </body>
 </html>
