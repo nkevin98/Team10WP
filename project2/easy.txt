@@ -3,3 +3,14 @@ apple: a red fruit
 snake: limbless reptile
 zombie: undead person
 house: building in which people live
+table: a thing where you put your stuff on
+headphones: you use this to listen to music
+cup: use this for drinking
+bank: where you deposite and withdraw money
+bed: you sleep on this
+brother: your male sibling
+window: an opening in the wall or roof of a building, car, etc., usually covered with glass, that allows light and air to come in and people to see out;
+crime: activities that involve breaking the law
+traditional: being part of the beliefs, customs or way of life of a particular group of people, that have not changed for a long time
+summer: the warmest season of the year, coming between spring and autumn
+shoulder: either of the two parts of the body between the top of each arm and the neck
